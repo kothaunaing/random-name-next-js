@@ -2,7 +2,17 @@ import { generateNames } from "@/backend/generateNames";
 import React from "react";
 import Form from "./Form";
 
-const NameGenerator = async ({ numberOfNames, gender, lang, length }) => {
+const NameGenerator = async ({
+  numberOfNames,
+  gender,
+  lang,
+  length,
+}: {
+  numberOfNames: number;
+  gender: string;
+  lang: string;
+  length: number;
+}) => {
   const generatedNames = generateNames({
     numberOfNames: numberOfNames,
     language: lang,
