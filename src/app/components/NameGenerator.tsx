@@ -1,4 +1,4 @@
-import { generatedNames, generateNames } from "@/backend/generateNames";
+import { generateNames } from "@/backend/generateNames";
 import React from "react";
 import Form from "./Form";
 
